@@ -81,6 +81,10 @@ npm run dev
 - **多模型分档**：不是所有章节都值得用最好的模型，把模型按任务难度分配，速度和成本都能接受。
 - **backend 与 api 目录重复**：是有意为之——Vercel 的 Serverless 函数约定放在 `api/`，本地开发用 `backend/`，两边逻辑保持一致。
 
+## 来源与致谢
+
+本仓库是我**学习研究多 Agent 系统的实践仓库**：基于优秀的开源项目 [VerdaAI-Investigator](https://github.com/kangjiayao14/VerdaAI-Investigator) 二次学习整理而来，核心架构与实现出自原作者，感谢开源。我在此基础上做了本地环境适配、文档重组与个人学习笔记，目标是吃透这套 Deep Research + 多 Agent 编排的设计思路。
+
 ## 许可证
 
 AGPL-3.0。个人学习随意用；如果要对外提供服务或再分发，需要遵守 AGPL-3.0 的开源义务（详见 [LICENSE](./LICENSE)）。
