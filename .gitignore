@@ -114,3 +114,4 @@ coverage/
 # package-lock.json 通常提交；如有安全顾虑可在此取消注释
 # package-lock.json
 # yarn.lock
+.workbuddy/
